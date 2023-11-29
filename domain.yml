@@ -22,6 +22,9 @@ actions:
   - action_test
   - custom_fallback_action
 
+  - action_retrive_tp
+  - action_retrive_cp
+
 responses:
   # utter_greet:
   # - text: "Hey! How are you?"
@@ -76,10 +79,6 @@ doc_type:
     - type: from_entity
       entity: doc_type
 
-
-actions:
-  - action_retrive_tp
-  - action_retrive_cp
 
 session_config:
   session_expiration_time: 60
