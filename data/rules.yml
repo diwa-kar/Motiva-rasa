@@ -18,5 +18,15 @@ rules:
   - intent: intent_greet
   - action: action_greet
 
+- rule: Retrive TP Document
+  steps:
+  - intent: intent_retrive_tp
+  - action: action_retrive_tp
+
+- rule: Retrive CP Document
+  steps:
+  - intent: intent_retrive_cp
+  - action: action_retrive_cp
+
 
 

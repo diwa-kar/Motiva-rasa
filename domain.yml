@@ -8,6 +8,8 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - intent_retrive_tp
+  - intent_retrive_cp
 
 responses:
   utter_greet:
@@ -28,6 +30,43 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+entities:
+  - doc_type:
+      type: text
+
+  - customer_name:
+      type: text
+  
+  - project_name:
+      type: text
+
+slots:
+  project_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: project_name
+
+customer_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: customer_name
+
+doc_type:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: doc_type
+
+
+actions:
+  - action_retrive_tp
+  - action_retrive_cp
 
 session_config:
   session_expiration_time: 60

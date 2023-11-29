@@ -16,3 +16,29 @@ class ActionGreet(Action):
         dispatcher.utter_message(text="Hello World from action")
 
         return []
+    
+class ActionRetriveTP(Action):
+
+    def name(self) -> Text:
+        return "action_retrive_tp"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="TP Retrival")
+
+        return []
+    
+class ActionRetriveCP(Action):
+
+    def name(self) -> Text:
+        return "action_retrive_cp"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="CP Retrival")
+
+        return []
