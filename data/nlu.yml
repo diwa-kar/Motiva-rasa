@@ -9,7 +9,59 @@ nlu:
     - hello there
     - good morning
     - good evening
-    - moin
+    - hi sir
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hi sir
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hi sir
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hi sir
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hi sir
     - hey there
     - let's go
     - hey dude
@@ -17,7 +69,8 @@ nlu:
     - goodevening
     - good afternoon
 
-- intent: goodbye
+
+- intent: intent_goodbye
   examples: |
     - cu
     - good by
@@ -29,16 +82,114 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
 
-- intent: affirm
+- intent: intent_test
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
+    - Cosmos
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
+    - Cosmos
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
+    - Cosmos
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
+    - connect with cosmos db
+    - cosmos db
+    - cosmos DB
+    - show me data in Cosmos DB
+    - Cosmos
 
+<<<<<<< HEAD
 - intent: deny
   examples: |
     - no
@@ -6102,3 +6253,5 @@ nlu:
     - bring comm proposal[doc_type] doc of NOMAC[project_name] prjct done for Linon[customer_name] this cust
     - comm proposal[doc_type] doc of the project NOMAC[project_name]
     - comm proposal[doc_type] doc of the prjct NOMAC[project_name]
+=======
+>>>>>>> f5bd3d45d2a5a8b73866143f9889f04a71ffdd78

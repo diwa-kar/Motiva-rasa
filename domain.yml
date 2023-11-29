@@ -1,6 +1,7 @@
 version: "3.1"
 
 intents:
+<<<<<<< HEAD
   - greet
   - goodbye
   - affirm
@@ -10,23 +11,38 @@ intents:
   - bot_challenge
   - intent_retrive_tp
   - intent_retrive_cp
+=======
+  - intent_greet
+  - intent_goodbye
+
+  - intent_test
+
+actions:
+  - action_greet
+  - action_goodbye
+
+  - action_test
+  - custom_fallback_action
+>>>>>>> f5bd3d45d2a5a8b73866143f9889f04a71ffdd78
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  # utter_greet:
+  # - text: "Hey! How are you?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  # utter_cheer_up:
+  # - text: "Here is something to cheer you up:"
+  #   image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  # utter_did_that_help:
+  # - text: "Did that help you?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  # utter_happy:
+  # - text: "Great, carry on!"
 
-  utter_goodbye:
-  - text: "Bye"
+  # utter_goodbye:
+  # - text: "Bye"
+  utter_default:
+  - text: Sorry I didn't get that. Can you rephrase?
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
