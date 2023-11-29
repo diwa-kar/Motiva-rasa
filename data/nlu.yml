@@ -189,7 +189,6 @@ nlu:
     - show me data in Cosmos DB
     - Cosmos
 
-<<<<<<< HEAD
 - intent: deny
   examples: |
     - no
@@ -6253,5 +6252,3 @@ nlu:
     - bring comm proposal[doc_type] doc of NOMAC[project_name] prjct done for Linon[customer_name] this cust
     - comm proposal[doc_type] doc of the project NOMAC[project_name]
     - comm proposal[doc_type] doc of the prjct NOMAC[project_name]
-=======
->>>>>>> f5bd3d45d2a5a8b73866143f9889f04a71ffdd78

@@ -1,7 +1,6 @@
 version: "3.1"
 
 intents:
-<<<<<<< HEAD
   - greet
   - goodbye
   - affirm
@@ -11,7 +10,6 @@ intents:
   - bot_challenge
   - intent_retrive_tp
   - intent_retrive_cp
-=======
   - intent_greet
   - intent_goodbye
 
@@ -23,7 +21,6 @@ actions:
 
   - action_test
   - custom_fallback_action
->>>>>>> f5bd3d45d2a5a8b73866143f9889f04a71ffdd78
 
 responses:
   # utter_greet:
