@@ -171,6 +171,7 @@ class ActionRetriveCP(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="CP Retrival")
+        dispatcher.utter_message(text="CP Retrivl")
 
         return []
+    
